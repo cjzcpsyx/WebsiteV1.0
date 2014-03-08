@@ -1,0 +1,145 @@
+html {
+	font-family: "proxima-nova";
+}
+div {
+	display: block;
+}
+body {
+	background: url(pattern.jpg);
+	max-width: 1200px;
+	margin: 0 auto;
+	padding-bottom: 100px;
+}
+
+/*header
+--------------------------------------------*/
+.header {
+	background: url(header.jpg);
+	height: 140px;
+	padding-left: 180px;
+	padding-top: 20px;
+}
+.main-header {
+	font-size: 45pt;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.sub-header {
+	margin-top: 10px;
+	font-size: 20pt;
+	color: #D1D1D1;
+}
+.menu {
+	background: #006c9f;
+	height: 40px;
+}
+
+
+/*navigation bar
+--------------------------------------------*/
+#navigation {
+	margin: 0;
+	padding: 0;
+}
+#navigation ul {
+	margin: 0;
+	padding: 0;
+}
+#navigation li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	position: relative;
+	background: #006c9f;
+}
+#navigation ul li a{
+	text-align: center;
+	font-family: "proxima-nova";
+	font-size: 18pt;
+	text-decoration: none;
+	line-height: 40px;
+	width: 130px;
+	display: block;
+	color: #FFFFFF;
+	text-shadow: 1px 1px 1px #000;
+}
+#navigation ul ul {
+	position: absolute;
+	visibility: hidden;
+	top: 40px;
+}
+#navigation ul li:hover ul {
+	visibility: visible;
+}
+#navigation li:hover {
+	background: #00a2ee;
+}
+#navigation ul li:hover ul li a:hover {
+	background: #54c8ff;
+	color: #000;
+}
+#navigation a:hover {
+	color: #000;
+}
+.clear-float {
+	clear: both;
+	margin: 0;
+	padding: 0;
+}
+
+
+/*current page indicator
+--------------------------------------------*/
+body#Home ul li#home a, body#Projects ul li#projects a, body#About ul li#about a{
+	background: url(hightlight.jpg);
+	color: #000;
+	text-shadow: 1px 1px 1px #000;
+}
+body#Projects ul li#projects:hover ul li a{
+	color: #FFFFFF;
+	background: #006c9f;
+}
+body#Projects ul li#projects:hover ul li a:hover {
+	background: #54c8ff;
+	color: #000;
+}
+
+/*search field
+--------------------------------------------*/
+body fieldset[role=search] {
+	float: right;
+	border: 0;
+}
+form .search{
+	border-radius: 10px;
+	padding-left: 5px;
+}
+
+/*main content
+--------------------------------------------*/
+.content {
+	background: url(content-bg.jpg);
+	background-size: 1200px;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+.photo1 {
+	width: 50%;
+	margin: 0 25% 0 25%;
+	background-size: 50%;
+}
+.content1 {
+	width: 50%;
+	margin: 50px 25% 0 25%;
+	font-size: 14pt;
+}
+
+/*footer
+--------------------------------------------*/
+.footer {
+	line-height: 40px;
+	background: #006c9f;
+	padding-left: 50px;
+	border-radius: 0 0 10px 10px;
+}
