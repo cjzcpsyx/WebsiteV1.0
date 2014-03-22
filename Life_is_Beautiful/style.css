@@ -91,7 +91,7 @@ body {
 
 /*current page indicator
 --------------------------------------------*/
-body#Home ul li#home a, body#Projects ul li#projects a, body#About ul li#about a{
+body#Home ul li#home a, body#Projects ul li#projects a, body#About ul li#about a, body#Principles ul li#principles a{
 	background: url(hightlight.jpg);
 	color: #000;
 	text-shadow: 1px 1px 1px #000;
@@ -133,6 +133,47 @@ form .search{
 	width: 50%;
 	margin: 50px 25% 0 25%;
 	font-size: 14pt;
+}
+.content2 {
+	width: 80;
+	margin: 50px 10% 0 10%;
+	font-size: 14pt;
+}
+.content3 {
+	background: #FFFFFF;
+	padding: 50px 10% 30px 10%;
+	font-size: 14pt;
+}
+.subtitle {
+	font-weight: bold;
+	font-size: 15pt;
+	margin-top: 15px;
+	width: 200px;
+	background: #38BEFD;
+	border-radius: 10px 10px 0 0;
+	text-align: center;
+}
+.splitter {
+	margin-top: 0;
+	background: #38BEFD;
+	width: 100%;
+	height: 1px;
+}
+.principle-content {
+	background: none;
+	text-align: center;
+	font-size: 18pt;
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+.project-content {
+	height: auto;
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+.project-content a {
+	text-decoration: none;
+	font-color: #000000;
 }
 
 /*footer
